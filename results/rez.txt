@@ -1,0 +1,487 @@
+--- mpnet + qwen3b | Što je relacijska baza podataka? ---
+  Latency: 9.801s | Recall@5: 0.5 | MRR: 0.3333333333333333
+
+--- mpnet + qwen7b | Što je relacijska baza podataka? ---
+  Latency: 9.368s | Recall@5: 0.5 | MRR: 0.3333333333333333
+
+--- bge + qwen3b | Što je relacijska baza podataka? ---
+  Latency: 9.555s | Recall@5: 0.5 | MRR: 0.3333333333333333
+
+--- bge + qwen7b | Što je relacijska baza podataka? ---
+  Latency: 9.368s | Recall@5: 0.5 | MRR: 0.3333333333333333
+
+--- mpnet + qwen3b | Što je primarni ključ? ---
+  Latency: 1.247s | Recall@5: 0.0 | MRR: 0.0
+
+--- mpnet + qwen7b | Što je primarni ključ? ---
+  Latency: 9.356s | Recall@5: 0.0 | MRR: 0.0
+
+--- bge + qwen3b | Što je primarni ključ? ---
+  Latency: 9.754s | Recall@5: 0.5 | MRR: 0.3333333333333333
+
+--- bge + qwen7b | Što je primarni ključ? ---
+  Latency: 9.409s | Recall@5: 0.5 | MRR: 0.3333333333333333
+
+--- mpnet + qwen3b | Što je strani ključ? ---
+  Latency: 9.517s | Recall@5: 0.0 | MRR: 0.0
+
+--- mpnet + qwen7b | Što je strani ključ? ---
+  Latency: 9.351s | Recall@5: 0.0 | MRR: 0.0
+
+--- bge + qwen3b | Što je strani ključ? ---
+  Latency: 9.605s | Recall@5: 0.0 | MRR: 0.0
+
+--- bge + qwen7b | Što je strani ključ? ---
+  Latency: 9.466s | Recall@5: 0.0 | MRR: 0.0
+
+--- mpnet + qwen3b | Što je indeks u bazi podataka? ---
+  Latency: 9.581s | Recall@5: 0.0 | MRR: 0.0
+
+--- mpnet + qwen7b | Što je indeks u bazi podataka? ---
+  Latency: 9.526s | Recall@5: 0.0 | MRR: 0.0
+
+--- bge + qwen3b | Što je indeks u bazi podataka? ---
+  Latency: 9.247s | Recall@5: 0.0 | MRR: 0.0
+
+--- bge + qwen7b | Što je indeks u bazi podataka? ---
+  Latency: 9.579s | Recall@5: 0.0 | MRR: 0.0
+
+--- mpnet + qwen3b | Što znači normalizacija baze podataka? ---
+  Latency: 9.553s | Recall@5: 0.0 | MRR: 0.0
+
+--- mpnet + qwen7b | Što znači normalizacija baze podataka? ---
+  Latency: 9.431s | Recall@5: 0.0 | MRR: 0.0
+
+--- bge + qwen3b | Što znači normalizacija baze podataka? ---
+  Latency: 9.152s | Recall@5: 0.0 | MRR: 0.0
+
+--- bge + qwen7b | Što znači normalizacija baze podataka? ---
+  Latency: 9.445s | Recall@5: 0.0 | MRR: 0.0
+
+--- mpnet + qwen3b | Što je transakcija? ---
+  Latency: 9.58s | Recall@5: 1.0 | MRR: 1.0
+
+--- mpnet + qwen7b | Što je transakcija? ---
+  Latency: 9.463s | Recall@5: 1.0 | MRR: 1.0
+
+--- bge + qwen3b | Što je transakcija? ---
+  Latency: 9.729s | Recall@5: 1.0 | MRR: 1.0
+
+--- bge + qwen7b | Što je transakcija? ---
+  Latency: 9.467s | Recall@5: 1.0 | MRR: 1.0
+
+--- mpnet + qwen3b | Što znači ACID svojstvo? ---
+  Latency: 9.518s | Recall@5: 1.0 | MRR: 1.0
+
+--- mpnet + qwen7b | Što znači ACID svojstvo? ---
+  Latency: 9.352s | Recall@5: 1.0 | MRR: 1.0
+
+--- bge + qwen3b | Što znači ACID svojstvo? ---
+  Latency: 9.721s | Recall@5: 1.0 | MRR: 1.0
+
+--- bge + qwen7b | Što znači ACID svojstvo? ---
+  Latency: 9.405s | Recall@5: 1.0 | MRR: 1.0
+
+--- mpnet + qwen3b | Što je data warehouse? ---
+  Latency: 9.653s | Recall@5: 0.0 | MRR: 0.0
+
+--- mpnet + qwen7b | Što je data warehouse? ---
+  Latency: 9.351s | Recall@5: 0.0 | MRR: 0.0
+
+--- bge + qwen3b | Što je data warehouse? ---
+  Latency: 9.363s | Recall@5: 0.0 | MRR: 0.0
+
+--- bge + qwen7b | Što je data warehouse? ---
+  Latency: 9.355s | Recall@5: 0.0 | MRR: 0.0
+
+--- mpnet + qwen3b | Što je OLAP? ---
+  Latency: 9.672s | Recall@5: 0.0 | MRR: 0.0
+
+--- mpnet + qwen7b | Što je OLAP? ---
+  Latency: 9.434s | Recall@5: 0.0 | MRR: 0.0
+
+--- bge + qwen3b | Što je OLAP? ---
+  Latency: 9.715s | Recall@5: 0.0 | MRR: 0.0
+
+--- bge + qwen7b | Što je OLAP? ---
+  Latency: 9.415s | Recall@5: 0.0 | MRR: 0.0
+
+--- mpnet + qwen3b | Što je ETL proces? ---
+  Latency: 9.688s | Recall@5: 0.0 | MRR: 0.0
+
+--- mpnet + qwen7b | Što je ETL proces? ---
+  Latency: 9.374s | Recall@5: 0.0 | MRR: 0.0
+
+--- bge + qwen3b | Što je ETL proces? ---
+  Latency: 9.696s | Recall@5: 1.0 | MRR: 0.3333333333333333
+
+--- bge + qwen7b | Što je ETL proces? ---
+  Latency: 9.413s | Recall@5: 1.0 | MRR: 0.3333333333333333
+
+--- mpnet + qwen3b | Što je distribuirani sustav? ---
+  Latency: 9.56s | Recall@5: 0.0 | MRR: 0.0
+
+--- mpnet + qwen7b | Što je distribuirani sustav? ---
+  Latency: 9.404s | Recall@5: 0.0 | MRR: 0.0
+
+--- bge + qwen3b | Što je distribuirani sustav? ---
+  Latency: 9.554s | Recall@5: 0.0 | MRR: 0.0
+
+--- bge + qwen7b | Što je distribuirani sustav? ---
+  Latency: 9.379s | Recall@5: 0.0 | MRR: 0.0
+
+--- mpnet + qwen3b | Što je big data? ---
+  Latency: 9.515s | Recall@5: 0.0 | MRR: 0.0
+
+--- mpnet + qwen7b | Što je big data? ---
+  Latency: 9.118s | Recall@5: 0.0 | MRR: 0.0
+
+--- bge + qwen3b | Što je big data? ---
+  Latency: 9.547s | Recall@5: 0.0 | MRR: 0.0
+
+--- bge + qwen7b | Što je big data? ---
+  Latency: 9.215s | Recall@5: 0.0 | MRR: 0.0
+
+--- mpnet + qwen3b | Što je NoSQL baza podataka? ---
+  Latency: 9.695s | Recall@5: 0.0 | MRR: 0.0
+
+--- mpnet + qwen7b | Što je NoSQL baza podataka? ---
+  Latency: 9.395s | Recall@5: 0.0 | MRR: 0.0
+
+--- bge + qwen3b | Što je NoSQL baza podataka? ---
+  Latency: 9.705s | Recall@5: 0.0 | MRR: 0.0
+
+--- bge + qwen7b | Što je NoSQL baza podataka? ---
+  Latency: 9.534s | Recall@5: 0.0 | MRR: 0.0
+
+--- mpnet + qwen3b | Što znači konzistentnost podataka? ---
+  Latency: 9.609s | Recall@5: 1.0 | MRR: 1.0
+
+--- mpnet + qwen7b | Što znači konzistentnost podataka? ---
+  Latency: 9.351s | Recall@5: 1.0 | MRR: 1.0
+
+--- bge + qwen3b | Što znači konzistentnost podataka? ---
+  Latency: 9.556s | Recall@5: 1.0 | MRR: 1.0
+
+--- bge + qwen7b | Što znači konzistentnost podataka? ---
+  Latency: 9.387s | Recall@5: 1.0 | MRR: 1.0
+
+--- mpnet + qwen3b | Što je redundancija podataka? ---
+  Latency: 9.708s | Recall@5: 1.0 | MRR: 1.0
+
+--- mpnet + qwen7b | Što je redundancija podataka? ---
+  Latency: 9.49s | Recall@5: 1.0 | MRR: 1.0
+
+--- bge + qwen3b | Što je redundancija podataka? ---
+  Latency: 9.721s | Recall@5: 0.0 | MRR: 0.0
+
+--- bge + qwen7b | Što je redundancija podataka? ---
+  Latency: 9.459s | Recall@5: 0.0 | MRR: 0.0
+
+--- mpnet + qwen3b | Usporedi OLTP i OLAP sustave. ---
+  Latency: 9.304s | Recall@5: 1.0 | MRR: 0.25
+
+--- mpnet + qwen7b | Usporedi OLTP i OLAP sustave. ---
+  Latency: 9.335s | Recall@5: 1.0 | MRR: 0.25
+
+--- bge + qwen3b | Usporedi OLTP i OLAP sustave. ---
+  Latency: 9.657s | Recall@5: 0.0 | MRR: 0.0
+
+--- bge + qwen7b | Usporedi OLTP i OLAP sustave. ---
+  Latency: 9.299s | Recall@5: 0.0 | MRR: 0.0
+
+--- mpnet + qwen3b | Koja je razlika između SQL i NoSQL baza? ---
+  Latency: 9.722s | Recall@5: 0.0 | MRR: 0.0
+
+--- mpnet + qwen7b | Koja je razlika između SQL i NoSQL baza? ---
+  Latency: 9.4s | Recall@5: 0.0 | MRR: 0.0
+
+--- bge + qwen3b | Koja je razlika između SQL i NoSQL baza? ---
+  Latency: 9.74s | Recall@5: 0.0 | MRR: 0.0
+
+--- bge + qwen7b | Koja je razlika između SQL i NoSQL baza? ---
+  Latency: 9.511s | Recall@5: 0.0 | MRR: 0.0
+
+--- mpnet + qwen3b | Usporedi relacijske i nerelacijske baze. ---
+  Latency: 9.762s | Recall@5: 0.0 | MRR: 0.0
+
+--- mpnet + qwen7b | Usporedi relacijske i nerelacijske baze. ---
+  Latency: 9.51s | Recall@5: 0.0 | MRR: 0.0
+
+--- bge + qwen3b | Usporedi relacijske i nerelacijske baze. ---
+  Latency: 9.773s | Recall@5: 0.0 | MRR: 0.0
+
+--- bge + qwen7b | Usporedi relacijske i nerelacijske baze. ---
+  Latency: 9.529s | Recall@5: 0.0 | MRR: 0.0
+
+--- mpnet + qwen3b | Koja je razlika između primarnog i stranog ključa? ---
+  Latency: 9.687s | Recall@5: 0.0 | MRR: 0.0
+
+--- mpnet + qwen7b | Koja je razlika između primarnog i stranog ključa? ---
+  Latency: 9.326s | Recall@5: 0.0 | MRR: 0.0
+
+--- bge + qwen3b | Koja je razlika između primarnog i stranog ključa? ---
+  Latency: 9.77s | Recall@5: 0.0 | MRR: 0.0
+
+--- bge + qwen7b | Koja je razlika između primarnog i stranog ključa? ---
+  Latency: 9.449s | Recall@5: 0.0 | MRR: 0.0
+
+--- mpnet + qwen3b | Usporedi batch i stream processing. ---
+  Latency: 9.691s | Recall@5: 0.0 | MRR: 0.0
+
+--- mpnet + qwen7b | Usporedi batch i stream processing. ---
+  Latency: 9.358s | Recall@5: 0.0 | MRR: 0.0
+
+--- bge + qwen3b | Usporedi batch i stream processing. ---
+  Latency: 9.673s | Recall@5: 0.0 | MRR: 0.0
+
+--- bge + qwen7b | Usporedi batch i stream processing. ---
+  Latency: 9.362s | Recall@5: 0.0 | MRR: 0.0
+
+--- mpnet + qwen3b | Koja je razlika između skalabilnosti i performansi? ---
+  Latency: 10.316s | Recall@5: None | MRR: None
+
+--- mpnet + qwen7b | Koja je razlika između skalabilnosti i performansi? ---
+  Latency: 9.438s | Recall@5: None | MRR: None
+
+--- bge + qwen3b | Koja je razlika između skalabilnosti i performansi? ---
+  Latency: 9.592s | Recall@5: None | MRR: None
+
+--- bge + qwen7b | Koja je razlika između skalabilnosti i performansi? ---
+  Latency: 9.472s | Recall@5: None | MRR: None
+
+--- mpnet + qwen3b | Usporedi horizontalno i vertikalno skaliranje. ---
+  Latency: 9.657s | Recall@5: 0.0 | MRR: 0.0
+
+--- mpnet + qwen7b | Usporedi horizontalno i vertikalno skaliranje. ---
+  Latency: 9.569s | Recall@5: 0.0 | MRR: 0.0
+
+--- bge + qwen3b | Usporedi horizontalno i vertikalno skaliranje. ---
+  Latency: 9.579s | Recall@5: 0.0 | MRR: 0.0
+
+--- bge + qwen7b | Usporedi horizontalno i vertikalno skaliranje. ---
+  Latency: 9.364s | Recall@5: 0.0 | MRR: 0.0
+
+--- mpnet + qwen3b | Koja je razlika između data warehouse i data lake? ---
+  Latency: 9.563s | Recall@5: 0.0 | MRR: 0.0
+
+--- mpnet + qwen7b | Koja je razlika između data warehouse i data lake? ---
+  Latency: 9.41s | Recall@5: 0.0 | MRR: 0.0
+
+--- bge + qwen3b | Koja je razlika između data warehouse i data lake? ---
+  Latency: 9.573s | Recall@5: 0.0 | MRR: 0.0
+
+--- bge + qwen7b | Koja je razlika između data warehouse i data lake? ---
+  Latency: 9.344s | Recall@5: 0.0 | MRR: 0.0
+
+--- mpnet + qwen3b | Usporedi centralizirane i distribuirane baze. ---
+  Latency: 9.555s | Recall@5: None | MRR: None
+
+--- mpnet + qwen7b | Usporedi centralizirane i distribuirane baze. ---
+  Latency: 9.369s | Recall@5: None | MRR: None
+
+--- bge + qwen3b | Usporedi centralizirane i distribuirane baze. ---
+  Latency: 9.595s | Recall@5: None | MRR: None
+
+--- bge + qwen7b | Usporedi centralizirane i distribuirane baze. ---
+  Latency: 9.373s | Recall@5: None | MRR: None
+
+--- mpnet + qwen3b | Koja je razlika između consistency i availability (CAP)? ---
+  Latency: 9.586s | Recall@5: 0.0 | MRR: 0.0
+
+--- mpnet + qwen7b | Koja je razlika između consistency i availability (CAP)? ---
+  Latency: 9.391s | Recall@5: 0.0 | MRR: 0.0
+
+--- bge + qwen3b | Koja je razlika između consistency i availability (CAP)? ---
+  Latency: 9.625s | Recall@5: 1.0 | MRR: 1.0
+
+--- bge + qwen7b | Koja je razlika između consistency i availability (CAP)? ---
+  Latency: 9.447s | Recall@5: 1.0 | MRR: 1.0
+
+--- mpnet + qwen3b | Usporedi ACID i BASE modele. ---
+  Latency: 9.44s | Recall@5: 0.5 | MRR: 1.0
+
+--- mpnet + qwen7b | Usporedi ACID i BASE modele. ---
+  Latency: 9.391s | Recall@5: 0.5 | MRR: 1.0
+
+--- bge + qwen3b | Usporedi ACID i BASE modele. ---
+  Latency: 9.591s | Recall@5: 0.5 | MRR: 1.0
+
+--- bge + qwen7b | Usporedi ACID i BASE modele. ---
+  Latency: 9.369s | Recall@5: 0.5 | MRR: 1.0
+
+--- mpnet + qwen3b | Koja je razlika između klastera i replike? ---
+  Latency: 9.534s | Recall@5: None | MRR: None
+
+--- mpnet + qwen7b | Koja je razlika između klastera i replike? ---
+  Latency: 9.303s | Recall@5: None | MRR: None
+
+--- bge + qwen3b | Koja je razlika između klastera i replike? ---
+  Latency: 5.714s | Recall@5: None | MRR: None
+
+--- bge + qwen7b | Koja je razlika između klastera i replike? ---
+  Latency: 9.272s | Recall@5: None | MRR: None
+
+--- mpnet + qwen3b | Usporedi indeksiranje i particioniranje. ---
+  Latency: 9.609s | Recall@5: 0.0 | MRR: 0.0
+
+--- mpnet + qwen7b | Usporedi indeksiranje i particioniranje. ---
+  Latency: 9.368s | Recall@5: 0.0 | MRR: 0.0
+
+--- bge + qwen3b | Usporedi indeksiranje i particioniranje. ---
+  Latency: 9.618s | Recall@5: 0.0 | MRR: 0.0
+
+--- bge + qwen7b | Usporedi indeksiranje i particioniranje. ---
+  Latency: 9.505s | Recall@5: 0.0 | MRR: 0.0
+
+--- mpnet + qwen3b | Koja je razlika između strukturiranih i nestrukturiranih pod ---
+  Latency: 9.566s | Recall@5: None | MRR: None
+
+--- mpnet + qwen7b | Koja je razlika između strukturiranih i nestrukturiranih pod ---
+  Latency: 9.435s | Recall@5: None | MRR: None
+
+--- bge + qwen3b | Koja je razlika između strukturiranih i nestrukturiranih pod ---
+  Latency: 9.64s | Recall@5: None | MRR: None
+
+--- bge + qwen7b | Koja je razlika između strukturiranih i nestrukturiranih pod ---
+  Latency: 9.464s | Recall@5: None | MRR: None
+
+--- mpnet + qwen3b | Sažmi osnovne koncepte relacijskog modela. ---
+  Latency: 9.439s | Recall@5: 0.0 | MRR: 0.0
+
+--- mpnet + qwen7b | Sažmi osnovne koncepte relacijskog modela. ---
+  Latency: 9.205s | Recall@5: 0.0 | MRR: 0.0
+
+--- bge + qwen3b | Sažmi osnovne koncepte relacijskog modela. ---
+  Latency: 9.577s | Recall@5: 0.0 | MRR: 0.0
+
+--- bge + qwen7b | Sažmi osnovne koncepte relacijskog modela. ---
+  Latency: 9.41s | Recall@5: 0.0 | MRR: 0.0
+
+--- mpnet + qwen3b | Sažmi proces dizajna baze podataka. ---
+  Latency: 9.545s | Recall@5: 0.0 | MRR: 0.0
+
+--- mpnet + qwen7b | Sažmi proces dizajna baze podataka. ---
+  Latency: 9.269s | Recall@5: 0.0 | MRR: 0.0
+
+--- bge + qwen3b | Sažmi proces dizajna baze podataka. ---
+  Latency: 7.662s | Recall@5: 0.0 | MRR: 0.0
+
+--- bge + qwen7b | Sažmi proces dizajna baze podataka. ---
+  Latency: 9.287s | Recall@5: 0.0 | MRR: 0.0
+
+--- mpnet + qwen3b | Sažmi što je normalizacija i zašto je važna. ---
+  Latency: 9.662s | Recall@5: 0.0 | MRR: 0.0
+
+--- mpnet + qwen7b | Sažmi što je normalizacija i zašto je važna. ---
+  Latency: 9.495s | Recall@5: 0.0 | MRR: 0.0
+
+--- bge + qwen3b | Sažmi što je normalizacija i zašto je važna. ---
+  Latency: 9.658s | Recall@5: 0.0 | MRR: 0.0
+
+--- bge + qwen7b | Sažmi što je normalizacija i zašto je važna. ---
+  Latency: 9.461s | Recall@5: 0.0 | MRR: 0.0
+
+--- mpnet + qwen3b | Sažmi arhitekturu distribuiranih sustava. ---
+  Latency: 7.344s | Recall@5: 0.0 | MRR: 0.0
+
+--- mpnet + qwen7b | Sažmi arhitekturu distribuiranih sustava. ---
+  Latency: 9.258s | Recall@5: 0.0 | MRR: 0.0
+
+--- bge + qwen3b | Sažmi arhitekturu distribuiranih sustava. ---
+  Latency: 7.73s | Recall@5: 0.0 | MRR: 0.0
+
+--- bge + qwen7b | Sažmi arhitekturu distribuiranih sustava. ---
+  Latency: 9.326s | Recall@5: 0.0 | MRR: 0.0
+
+--- mpnet + qwen3b | Sažmi ETL proces. ---
+  Latency: 9.687s | Recall@5: 0.0 | MRR: 0.0
+
+--- mpnet + qwen7b | Sažmi ETL proces. ---
+  Latency: 9.411s | Recall@5: 0.0 | MRR: 0.0
+
+--- bge + qwen3b | Sažmi ETL proces. ---
+  Latency: 9.677s | Recall@5: 1.0 | MRR: 1.0
+
+--- bge + qwen7b | Sažmi ETL proces. ---
+  Latency: 9.452s | Recall@5: 1.0 | MRR: 1.0
+
+--- mpnet + qwen3b | Sažmi glavne izazove big data sustava. ---
+  Latency: 9.626s | Recall@5: 0.0 | MRR: 0.0
+
+--- mpnet + qwen7b | Sažmi glavne izazove big data sustava. ---
+  Latency: 9.346s | Recall@5: 0.0 | MRR: 0.0
+
+--- bge + qwen3b | Sažmi glavne izazove big data sustava. ---
+  Latency: 9.488s | Recall@5: 0.0 | MRR: 0.0
+
+--- bge + qwen7b | Sažmi glavne izazove big data sustava. ---
+  Latency: 9.234s | Recall@5: 0.0 | MRR: 0.0
+
+--- mpnet + qwen3b | Sažmi kako funkcionira indeksiranje. ---
+  Latency: 9.633s | Recall@5: 0.0 | MRR: 0.0
+
+--- mpnet + qwen7b | Sažmi kako funkcionira indeksiranje. ---
+  Latency: 9.523s | Recall@5: 0.0 | MRR: 0.0
+
+--- bge + qwen3b | Sažmi kako funkcionira indeksiranje. ---
+  Latency: 9.645s | Recall@5: 0.0 | MRR: 0.0
+
+--- bge + qwen7b | Sažmi kako funkcionira indeksiranje. ---
+  Latency: 9.6s | Recall@5: 0.0 | MRR: 0.0
+
+--- mpnet + qwen3b | Sažmi osnovne operacije nad bazom podataka. ---
+  Latency: 8.276s | Recall@5: 0.0 | MRR: 0.0
+
+--- mpnet + qwen7b | Sažmi osnovne operacije nad bazom podataka. ---
+  Latency: 9.445s | Recall@5: 0.0 | MRR: 0.0
+
+--- bge + qwen3b | Sažmi osnovne operacije nad bazom podataka. ---
+  Latency: 9.648s | Recall@5: 0.0 | MRR: 0.0
+
+--- bge + qwen7b | Sažmi osnovne operacije nad bazom podataka. ---
+  Latency: 9.443s | Recall@5: 0.0 | MRR: 0.0
+
+--- mpnet + qwen3b | Sažmi razine izolacije transakcija. ---
+  Latency: 9.614s | Recall@5: 1.0 | MRR: 1.0
+
+--- mpnet + qwen7b | Sažmi razine izolacije transakcija. ---
+  Latency: 9.492s | Recall@5: 1.0 | MRR: 1.0
+
+--- bge + qwen3b | Sažmi razine izolacije transakcija. ---
+  Latency: 9.663s | Recall@5: 1.0 | MRR: 1.0
+
+--- bge + qwen7b | Sažmi razine izolacije transakcija. ---
+  Latency: 9.377s | Recall@5: 1.0 | MRR: 1.0
+
+--- mpnet + qwen3b | Sažmi CAP teorem i kako ETL koristi baze podataka? ---
+  Latency: 9.542s | Recall@5: 0.0 | MRR: 0.0
+
+--- mpnet + qwen7b | Sažmi CAP teorem i kako ETL koristi baze podataka? ---
+  Latency: 9.326s | Recall@5: 0.0 | MRR: 0.0
+
+--- bge + qwen3b | Sažmi CAP teorem i kako ETL koristi baze podataka? ---
+  Latency: 9.636s | Recall@5: 0.0 | MRR: 0.0
+
+--- bge + qwen7b | Sažmi CAP teorem i kako ETL koristi baze podataka? ---
+  Latency: 9.508s | Recall@5: 0.0 | MRR: 0.0
+
+--- mpnet + qwen3b | Kako su povezani indeksiranje i performanse baze i kako norm ---
+  Latency: 9.666s | Recall@5: None | MRR: None
+
+--- mpnet + qwen7b | Kako su povezani indeksiranje i performanse baze i kako norm ---
+  Latency: 9.568s | Recall@5: None | MRR: None
+
+--- bge + qwen3b | Kako su povezani indeksiranje i performanse baze i kako norm ---
+  Latency: 9.66s | Recall@5: None | MRR: None
+
+--- bge + qwen7b | Kako su povezani indeksiranje i performanse baze i kako norm ---
+  Latency: 9.575s | Recall@5: None | MRR: None
+
+=== RAG Evaluation Summary ===
+                  latency_sec  recall_at_k     mrr  faithfulness  answer_relevancy
+embedding llm
+bge       qwen3b       9.4201       0.2429  0.2286           NaN               NaN
+          qwen7b       9.4182       0.2429  0.2286           NaN               NaN
+mpnet     qwen3b       9.3231       0.2000  0.1881           NaN               NaN
+          qwen7b       9.3926       0.2000  0.1881           NaN               NaN

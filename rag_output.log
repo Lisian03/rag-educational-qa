@@ -1,0 +1,76 @@
+RUNNING FROM:
+/lustre/home/lshehu/rag_project
+total 45
+drwx------ 5 lshehu NR-2026-03-027 4096 Apr 24 00:08 data
+-rw-r--r-- 1 lshehu NR-2026-03-027  261 Apr 24 00:23 evaluation.py
+-rw-r--r-- 1 lshehu NR-2026-03-027  967 Apr 24 00:22 generation.py
+-rw-r--r-- 1 lshehu NR-2026-03-027  990 Apr 24 00:49 ingestion.py
+-rw-r--r-- 1 lshehu NR-2026-03-027 3001 Apr 24 00:57 main.py
+-rw-r--r-- 1 lshehu NR-2026-03-027 1285 Apr 24 00:58 pipeline.py
+drwxr-xr-x 2 lshehu NR-2026-03-027 4096 Apr 24 00:58 __pycache__
+drwxr-xr-x 6 lshehu NR-2026-03-027 4096 Apr 24 00:12 rag_env
+-rw------- 1 lshehu NR-2026-03-027   46 Apr 24 01:05 rag_output.log
+-rw-r--r-- 1 lshehu NR-2026-03-027  351 Apr 24 00:22 reranker.py
+-rw-r--r-- 1 lshehu NR-2026-03-027   74 Apr 24 00:22 retrieval.py
+-rw-r--r-- 1 lshehu NR-2026-03-027  323 Apr 24 01:05 run.sh
+-rw-r--r-- 1 lshehu NR-2026-03-027  296 Apr 24 00:54 vectorstore.py
+START PYTHON
+'[Errno 101] Network is unreachable' thrown while requesting HEAD https://huggingface.co/BAAI/bge-reranker-v2-m3/resolve/main/./modules.json
+Retrying in 1s [Retry 1/5].
+'[Errno 101] Network is unreachable' thrown while requesting HEAD https://huggingface.co/BAAI/bge-reranker-v2-m3/resolve/main/adapter_config.json
+Retrying in 1s [Retry 1/5].
+Traceback (most recent call last):
+  File "/lustre/home/lshehu/rag_project/main.py", line 1, in <module>
+    from pipeline import RAGSystem
+  File "/lustre/home/lshehu/rag_project/pipeline.py", line 4, in <module>
+    from reranker import rerank
+  File "/lustre/home/lshehu/rag_project/reranker.py", line 3, in <module>
+    reranker = CrossEncoder("BAAI/bge-reranker-v2-m3")
+  File "/lustre/home/lshehu/rag_project/rag_env/lib/python3.10/site-packages/sentence_transformers/util/decorators.py", line 160, in wrapper
+    return func(self, *args, **kwargs)
+  File "/lustre/home/lshehu/rag_project/rag_env/lib/python3.10/site-packages/sentence_transformers/cross_encoder/model.py", line 181, in __init__
+    super().__init__(
+  File "/lustre/home/lshehu/rag_project/rag_env/lib/python3.10/site-packages/sentence_transformers/base/model.py", line 198, in __init__
+    modules, self.module_kwargs = self._load_modules(
+  File "/lustre/home/lshehu/rag_project/rag_env/lib/python3.10/site-packages/sentence_transformers/base/model.py", line 963, in _load_modules
+    return self._load_default_modules(model_name_or_path, **load_kwargs)
+  File "/lustre/home/lshehu/rag_project/rag_env/lib/python3.10/site-packages/sentence_transformers/cross_encoder/model.py", line 267, in _load_default_modules
+    transformer_model = Transformer(
+  File "/lustre/home/lshehu/rag_project/rag_env/lib/python3.10/site-packages/sentence_transformers/util/decorators.py", line 87, in wrapper
+    return func(*args, **kwargs)
+  File "/lustre/home/lshehu/rag_project/rag_env/lib/python3.10/site-packages/sentence_transformers/base/modules/transformer.py", line 628, in __init__
+    config, is_peft_model = self._load_config(model_name_or_path, backend, config_kwargs)
+  File "/lustre/home/lshehu/rag_project/rag_env/lib/python3.10/site-packages/sentence_transformers/base/modules/transformer.py", line 1354, in _load_config
+    adapter_config_file = find_adapter_config_file(
+  File "/lustre/home/lshehu/rag_project/rag_env/lib/python3.10/site-packages/transformers/utils/peft_utils.py", line 84, in find_adapter_config_file
+    adapter_cached_filename = cached_file(
+  File "/lustre/home/lshehu/rag_project/rag_env/lib/python3.10/site-packages/transformers/utils/hub.py", line 278, in cached_file
+    file = cached_files(path_or_repo_id=path_or_repo_id, filenames=[filename], **kwargs)
+  File "/lustre/home/lshehu/rag_project/rag_env/lib/python3.10/site-packages/transformers/utils/hub.py", line 512, in cached_files
+    raise e
+  File "/lustre/home/lshehu/rag_project/rag_env/lib/python3.10/site-packages/transformers/utils/hub.py", line 422, in cached_files
+    hf_hub_download(
+  File "/lustre/home/lshehu/rag_project/rag_env/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 88, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/lustre/home/lshehu/rag_project/rag_env/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 997, in hf_hub_download
+    return _hf_hub_download_to_cache_dir(
+  File "/lustre/home/lshehu/rag_project/rag_env/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1130, in _hf_hub_download_to_cache_dir
+    _get_metadata_or_catch_error(
+  File "/lustre/home/lshehu/rag_project/rag_env/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1669, in _get_metadata_or_catch_error
+    metadata = get_hf_file_metadata(
+  File "/lustre/home/lshehu/rag_project/rag_env/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 88, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/lustre/home/lshehu/rag_project/rag_env/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1591, in get_hf_file_metadata
+    response = _httpx_follow_relative_redirects_with_backoff(
+  File "/lustre/home/lshehu/rag_project/rag_env/lib/python3.10/site-packages/huggingface_hub/utils/_http.py", line 685, in _httpx_follow_relative_redirects_with_backoff
+    response = http_backoff(
+  File "/lustre/home/lshehu/rag_project/rag_env/lib/python3.10/site-packages/huggingface_hub/utils/_http.py", line 559, in http_backoff
+    return next(
+  File "/lustre/home/lshehu/rag_project/rag_env/lib/python3.10/site-packages/huggingface_hub/utils/_http.py", line 467, in _http_backoff_base
+    response = client.request(method=method, url=url, **kwargs)
+  File "/lustre/home/lshehu/rag_project/rag_env/lib/python3.10/site-packages/httpx/_client.py", line 825, in request
+    return self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "/lustre/home/lshehu/rag_project/rag_env/lib/python3.10/site-packages/httpx/_client.py", line 901, in send
+    raise RuntimeError("Cannot send a request, as the client has been closed.")
+RuntimeError: Cannot send a request, as the client has been closed.
+DONE
